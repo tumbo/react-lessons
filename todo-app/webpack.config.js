@@ -8,7 +8,11 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/main.jsx',
-      Nav: 'app/components/nav.jsx'
+      Nav: 'app/components/nav.jsx',
+      Search: 'app/components/search.jsx',
+      TodoList: 'app/components/todo-list.jsx',
+      TodoActive: 'app/components/todo-active.jsx',
+      TodoAdd: 'app/components/todo-add.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

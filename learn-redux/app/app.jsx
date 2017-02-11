@@ -5,8 +5,13 @@ var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
 var Main = require('Main');
+var ReduxExample = require('app/redux-todo-example.jsx');
 // above is done instead of below for each object we want
 // var Route = require('react-router').Route;
+
+// seems odd, but just go with it. very inconsistant
+require('style!css!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
 
 ReactDOM.render(
   <Router history={hashHistory}>
